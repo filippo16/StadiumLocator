@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textColor">#000000</color>
+    <color name="primary">#4CAF50</color>
+    <color name="primaryVariant">#388E3C</color>
+    <color name="secondary">#FF5722</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#FFFFFF</color>
+    <color name="buttonBackground">#4CAF50</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- Dark Theme Colors -->
+    <color name="backgroundDark">#121212</color>
+    <color name="surfaceDark">#1E1E1E</color>
+    <color name="textColorDark">#FFFFFF</color>
+    <color name="primaryDark">#66BB6A</color>
+    <color name="primaryVariantDark">#388E3C</color>
+    <color name="secondaryDark">#FF5722</color>
+    <color name="onPrimaryDark">#000000</color>
+    <color name="onSecondaryDark">#000000</color>
+    <color name="buttonBackgroundDark">#66BB6A</color>
+    <color name="buttonTextColorDark">#000000</color>
+
+    <!-- Gray colors -->
+    <color name="grayLight">#E0E0E0</color>
+</resources>

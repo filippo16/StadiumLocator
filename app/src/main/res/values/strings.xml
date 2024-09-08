@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StadiumLocator</string>
+    <string name="delete_stadium">Delete Stadium</string>
+    <string name="options">Options</string>
+    <string name="update">Update</string>
+    <string name="add_stadium">Add Stadium</string>
+    <string name="hint_name">Enter stadium name</string>
+    <string name="scroll_view_description">Scroll view for stadium list</string>
+    <string name="edit_stadium_name">Edit stadium name</string>
+</resources>

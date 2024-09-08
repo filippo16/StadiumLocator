@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".OptionsActivity">
+
+    <EditText
+        android:id="@+id/stadiumNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:padding="24dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/grayLight"
+        android:layout_marginBottom="26dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="@string/edit_stadium_name"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/addStadiumButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_stadium"
+        android:textColor="@color/buttonTextColor"
+        android:background="@drawable/button_background"
+        android:enabled="false"
+        android:padding="16dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"/>
+</LinearLayout>
