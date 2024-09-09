@@ -1,4 +1,4 @@
-package com.example.stadiumlocator
+package com.example.stadiumlocator.network
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -7,7 +7,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 
 object RetrofitClient {
-    private const val BASE_URL = "https://f64k6qgx-80.euw.devtunnels.ms/"
+    private const val BASE_URL = "https://notesync2.altervista.org/"
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BODY

@@ -1,7 +1,8 @@
 // ApiService.kt
-package com.example.stadiumlocator
+package com.example.stadiumlocator.network
 
 
+import com.example.stadiumlocator.model.Stadium
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.DELETE

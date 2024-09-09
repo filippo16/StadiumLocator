@@ -15,7 +15,7 @@
         android:theme="@style/Theme.StadiumLocator"
         android:usesCleartextTraffic="true">
 
-        <activity android:name=".MainActivity"
+        <activity android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".OptionsActivity"
+        <activity android:name=".view.OptionsActivity"
             android:exported="true" />
     </application>
 

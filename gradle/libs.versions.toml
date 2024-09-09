@@ -28,6 +28,7 @@ playServicesLocationVersion = "21.0.1"
 playServicesTasks = "18.2.0"
 retrofit = "2.5.0"
 retrofit2KotlinCoroutinesAdapter = "0.9.2"
+uiDesktop = "1.7.0"
 
 [libraries]
 adapter-coroutines = { module = "com.squareup.retrofit2:adapter-coroutines", version.ref = "adapterCoroutines" }
@@ -66,6 +67,7 @@ play-services-tasks-v1802 = { module = "com.google.android.gms:play-services-tas
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterScalars" }
 retrofit-v250 = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
 retrofit2-kotlin-coroutines-adapter = { module = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter", version.ref = "retrofit2KotlinCoroutinesAdapter" }
+androidx-ui-desktop = { group = "androidx.compose.ui", name = "ui-desktop", version.ref = "uiDesktop" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

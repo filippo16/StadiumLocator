@@ -1,8 +1,8 @@
-package com.example.stadiumlocator
+package com.example.stadiumlocator.model
 
 data class Stadium(
     val nome: String,
     val latitudine: Double,
     val longitudine: Double,
-    var distance: Double = 0.0 // Distance inizializzata a 0.0
+    @Transient var distance: Double = 0.0
 )
